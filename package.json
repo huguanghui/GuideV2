@@ -1,8 +1,8 @@
 {
-  "name": "demo",
+  "name": "WebsiteShow",
   "version": "1.0.0",
-  "description": "demo",
-  "author": "luuman",
+  "description": "show s series Show",
+  "author": "huguanghui",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

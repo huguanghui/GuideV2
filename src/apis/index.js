@@ -76,7 +76,7 @@ export const oPost = (url, params) => {
 
 export default {
   List () {
-    return oGet(`https://www.easy-mock.com/mock/5926ae2191470c0ac1fde242/api/frontendguide/list`)
+    return oGet(`https://www.easy-mock.com/mock/5befe2e91aaa7772d6759b75/hgh/frontendguide/list`)
   },
   Get (link) {
     return oGet(link)

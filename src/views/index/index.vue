@@ -98,8 +98,10 @@
     components: {comCopy, vList},
     mounted () {
       if (this.$route.query.type === 'copy') {
+        console.log('## Copying ...')
         this.type = true
       }
+      console.log('## test_00')
       API.List()
       .then(res => {
         this.novelty = res
